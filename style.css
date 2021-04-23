@@ -1,4 +1,5 @@
 .headerContainer{
+    color: red;
     width: 100vw;
     height: 20vh;
     border: 1px solid black;
@@ -7,12 +8,42 @@
     align-items: center;
     background-color: white;
     box-shadow: 5px 5px black;
-    font-family: Beyno;
-    font-size: 2rem;
-    color: purple;
+    font-family: pokemon hollow;
+    font-size: 3rem;
+    color: black;
     opacity: 0.5;
+    text-shadow: black 7px 7px 7px;
+    
 
     
+}
+
+.info{
+    gap: 200px;
+    display: flex;
+    font-family: pokemon solid;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.form{
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.music{
+    padding: 10px;
+    display: flex;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 
