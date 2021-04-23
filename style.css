@@ -11,7 +11,7 @@
     font-family: pokemon hollow;
     font-size: 3rem;
     color: black;
-    opacity: 0.5;
+    opacity: 0.75;
     text-shadow: black 7px 7px 7px;
     
 
@@ -26,6 +26,8 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    background-color: white;
+    opacity: 0.5;
 }
 
 .form{
@@ -34,24 +36,26 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: 5px 5px black;
 }
 
 .music{
     padding: 10px;
     display: flex;
-    border: solid black;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    
 }
 
 
 body{
     background-image: url(/images/pokemon_card_ball.jpg);
     background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
-.changeColor{
-    color: ;
-}
