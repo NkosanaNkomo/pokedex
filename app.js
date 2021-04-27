@@ -8,6 +8,8 @@
 // async await to grab data
 // prevent default info from population
 
+
+
 $(()=>{
 
     $('form').on("submit", (event)=>{
@@ -22,13 +24,26 @@ $(()=>{
             const data = await response.json()
             $('#pokeName').html(data.forms[0].name);
             console.log(data);
-            $('.pokeType').html(data.forms[0].name);
+            $('#pokeType').html(data.forms[0].name);
+            console.log(data);
+            $('#pokeNum').html(data.forms[0].name);
             console.log(data);
             
         }
         getPokeData()
 
-    
     })
 
 })
+
+// console.log(userInput)
+//         async function getPokeData(){
+//             const response = await fetch( `https://pokeapi.co/api/v2/pokemon/${userInput}`)
+//             // change the data to json data
+//             const data = await response.json()
+//             $('#pokeName').html(data.forms[0].name);
+//             console.log(data);
+//             $('#pokeType').html(data.forms[0].name);
+//             console.log(data);
+//             $('#pokeNum').html(data.forms[0].name);
+//             console.log(data);
