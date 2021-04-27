@@ -24,9 +24,9 @@ $(()=>{
             const data = await response.json()
             $('#pokeName').html(data.forms[0].name);
             console.log(data);
-            $('#pokeType').html(data.forms[0].name);
+            $('#pokeType').html(data.types[0].type.name);
             console.log(data);
-            $('#pokeNum').html(data.forms[0].name);
+            $('#pokeNum').html(data.id);
             console.log(data);
             
         }
